@@ -18,6 +18,7 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+        <docker.image.prefix>docker.io</docker.image.prefix>
     </properties>
 
     <modules>
@@ -25,7 +26,6 @@
     </modules>
 
     <packaging>pom</packaging>
-
     <!--<build>-->
     <!--    <finalName>${project.artifactId}</finalName>-->
     <!--    <plugins>-->
